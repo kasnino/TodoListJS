@@ -90,7 +90,7 @@ borrartodo.addEventListener("click", function(){
 	});
   })
 }
-///alertas 
+///alertas errores
 function showfeedback(text, action){
 	feedback.classList.add("showItem", `alert-${action}`);
 	feedback.innerHTML = `<p>${text}</p>`;
